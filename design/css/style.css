@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Zen+Antique&display=swap');;
+
+body{ font-family: Zen Antique, sans-serif;
+        font-weight: 400;}
+
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(248, 185, 131);
+    text-align: center;
+    color: rgb(33, 96, 190);
+}
+
+
+#head {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+    text-transform: uppercaseS;
+}
+
+
+
+.hero {
+    width: 950px;
+    height: 70%;
+    float: right;
+}
