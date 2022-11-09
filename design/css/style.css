@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Zen+Antique&display=swap');;
 
 body{ font-family: Zen Antique, sans-serif;
-        font-weight: 400;}
-
-
-header {
+        font-weight: 400;
+        margin: 0;
+        border: 0;}
+        
+        
+    h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    background-color: rgb(248, 185, 131);
-    text-align: center;
-    color: rgb(33, 96, 190);
+    letter-spacing: 5px;
 }
 
+a {text-decoration: none;}
 
 #head {
     margin: 0;
     padding: 0;
-    display: inline-block;
-    text-align: left;
+    text-align: center;
+    font-size: 250%;
     text-transform: uppercaseS;
+    padding: 10px 20px;
+    background-color: rgb(248, 185, 131);
+    color: rgb(33, 96, 190);
 }
 
 
