@@ -2,7 +2,7 @@
 {
     margin:0;
     padding: 0;
-    border: 10%;
+    border: 0;
     }
 
 .background-image {
@@ -13,26 +13,26 @@
     background-attachment: fixed;
 }
 
-h1 {
+header > h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-weight: 300%;
+    font-weight: 400%;
     letter-spacing: 5px;
     margin: 20%;
     border-top: 80;
     }
 header {
-    color: rgb(217, 219, 221);
-    padding:0;
+    color:#ccccff;;
+    padding: 1px;
     margin: 0;
     border: 0;
     }
   
 h2 {font-family: 'Times New Roman', Times, serif;
-    font-weight:100;
+    font-weight:800;
     text-align: center;
     letter-spacing: 3px;
-    padding:0;
+    padding: 5px;
 
 }
 
@@ -42,32 +42,33 @@ a {text-decoration: none;}
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 250%;
+    font-size: 400%;
     text-transform: uppercaseS;
+    color: #ccccff;
       
 }
 
-#Navigation  {
+#Navigation {
     font-size: 120%;
     letter-spacing: 3px;
+    
     }
 
 #Navigation li {
     list-style-type: none;
     display: inline-flex;
     padding:5px ;
-    color: rgb(217, 219, 221);
+
 }
 
 #Navigation a:hover {
     border-bottom: 1px solid grey;
+    color: #ccccff;
+
 }
 
-.visited {border-bottom: 1px solid black;}
+.visited {border-bottom: 2px solid black;}
 
 
-.hero {
-    width: 950px;
-    height: 70%;
-    float: right;
-}
+
+
