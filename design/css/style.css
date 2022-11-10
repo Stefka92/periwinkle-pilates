@@ -1,26 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Zen+Antique&display=swap');;
+*
+{
+    margin:0;
+    padding: 0;
+    border: 10%;
+    }
 
-body{ font-family: Zen Antique, sans-serif;
-        font-weight: 400;
-        margin: 0;
-        border: 0;}
-        
-        
-    h1 {
+.background-image {
+    background-image: url(..//images/beach.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-weight: 300%;
     letter-spacing: 5px;
     margin: 20%;
     border-top: 80;
-}
+    }
 header {
-    background-color: rgb(217, 219, 221);
-    color: blue;
+    color: rgb(217, 219, 221);
     padding:0;
     margin: 0;
     border: 0;
-}
+    }
+  
 h2 {font-family: 'Times New Roman', Times, serif;
     font-weight:100;
     text-align: center;
@@ -43,15 +50,13 @@ a {text-decoration: none;}
 #Navigation  {
     font-size: 120%;
     letter-spacing: 3px;
-    color: rgb(0,0,225);
-    
-}
+    }
 
 #Navigation li {
     list-style-type: none;
     display: inline-flex;
     padding:5px ;
-    color: inherit;
+    color: rgb(217, 219, 221);
 }
 
 #Navigation a:hover {
