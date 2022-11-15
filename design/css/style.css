@@ -69,6 +69,10 @@ a {text-decoration: none;}
 
 .visited {border-bottom: 2px solid black;}
 
-
+.main-content {
+    height: 600px;
+    padding: 100px 20px;
+}
+    
 
 
