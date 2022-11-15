@@ -73,6 +73,32 @@ a {text-decoration: none;}
     height: 600px;
     padding: 100px 20px;
 }
+
+.tagline {
+    padding-top: 100px;
+    
+    
+}
+
+footer {
+   
+     height: 180px;
+    margin: 2%;
+    background-color: #ccccff;
+}
+.social-media {
+    float:right;
+    letter-spacing:3px;
+    font-weight: 200;
+    width: 33%;
+   
+               }
+               
+#contact {
+    width:33%;
+    float:left;
+}
+    
     
 
 
