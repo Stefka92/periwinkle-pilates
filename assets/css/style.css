@@ -33,18 +33,20 @@ h2 {font-family: 'Times New Roman', Times, serif;
     text-align: center;
     letter-spacing: 3px;
     padding: 5px;
+    text-shadow: 2px 2px 5px black;
 
 }
 
 a {text-decoration: none;}
 
 #head {
-    margin: 0;
-    padding: 0;
     text-align: center;
     font-size: 400%;
-    text-transform: uppercaseS;
     color: #ccccff;
+    text-shadow: 4px 4px 5px black;
+    letter-spacing: 5px;
+    font-family: cursive;
+    line-height: 1;
       
 }
 
@@ -76,28 +78,38 @@ a {text-decoration: none;}
 
 .tagline {
     padding-top: 100px;
-    
-    
+      
 }
 
 footer {
    
-     height: 180px;
-    margin: 2%;
-    background-color: #ccccff;
+   text-align: left;
+   padding: 0px 4%;
+    background-color: #c19a6b;
+    margin: none;
+    border-top: thin solid #ccccff  ;
+
 }
 .social-media {
     float:right;
     letter-spacing:3px;
+    margin-left: 20px;
     font-weight: 200;
     width: 33%;
+    margin-block-start: 4em;
+    margin-block-end: 1em;
    
                }
                
 #contact {
-    width:33%;
-    float:left;
+   
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
+
+.contact-left {float: inline-start;}
     
     
 
