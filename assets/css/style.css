@@ -41,7 +41,7 @@ a {text-decoration: none;}
 
 #head {
     text-align: center;
-    font-size: 400%;
+    font-size: 700%;
     color: #ccccff;
     text-shadow: 4px 4px 5px black;
     letter-spacing: 5px;
@@ -60,6 +60,7 @@ a {text-decoration: none;}
     list-style-type: none;
     display: inline-flex;
     padding:5px ;
+    font-size: larger;
 
 }
 
@@ -77,19 +78,15 @@ a {text-decoration: none;}
 }
 
 .tagline {
-    background-color: lightblue;
-    width: 50%;
-    border-radius: 50%;
-    line-height: 0;
     position: absolute;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 40%;
       }
 
-.tagline ::after {
 
-content:"";
-display:block;
-padding-bottom: 20%;
-}
 
 footer {
    
