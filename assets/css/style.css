@@ -16,8 +16,8 @@
 header > h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-weight: 400%;
-    letter-spacing: 5px;
+    font-weight: 600%;
+    letter-spacing: 4px;
     margin: 20%;
     border-top: 80;
     }
@@ -77,8 +77,18 @@ a {text-decoration: none;}
 }
 
 .tagline {
-    padding-top: 100px;
-      
+    background-color: lightblue;
+    width: 50%;
+    border-radius: 50%;
+    line-height: 0;
+    position: absolute;
+      }
+
+.tagline ::after {
+
+content:"";
+display:block;
+padding-bottom: 20%;
 }
 
 footer {
