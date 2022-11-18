@@ -73,17 +73,27 @@ a {text-decoration: none;}
 .visited {border-bottom: 2px solid black;}
 
 .main-content {
-    height: 600px;
-    padding: 100px 20px;
+    height: 400px;
+    padding: 40px 15px;
 }
 
 .tagline {
     position: absolute;
-    color: white;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    color: #bbbbed;
+    text-align: left;
+    padding-top: 1.5%;
     width: 40%;
+    text-shadow: 2px 2px 8px black;
+      }
+
+
+      .highlights-list {margin-inline: 2%;
+                            font-size:20px; }
+
+      .highlights-list h3 {
+        font-size: 25px;
+    color:#050506;;
+    padding-block-end: 20px;
       }
 
 
