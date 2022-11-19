@@ -100,18 +100,18 @@ a {text-decoration: none;}
 
       .highlights-list h3 {
     font-size: 25px;
-    color:#551a8b;
+    color:#cccfff;
     padding-top:50px;
       }
 
       .btn {
-         text-decoration: none;
-        border: 0.2px solid #000;
-        color:#ccccff;
-        background: #551a8b;
-        padding: 3px;
-        border-radius: 1px;
-      
+        text-decoration: none;
+        border: 0.2px solid #c19a6b;
+        color: black;
+        background: #c19a6b;
+        padding: 5px;
+        border-radius: 50%;
+        font-weight: bold;
       }
 
       
