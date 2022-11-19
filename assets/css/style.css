@@ -56,7 +56,7 @@ a {text-decoration: none;}
     line-height: 1;
       
 }
-
+/** This is where I will style my nagiviation menu**/
 #Navigation {
     font-size: 120%;
     letter-spacing: 3px;
@@ -78,7 +78,11 @@ a {text-decoration: none;}
 }
 
 .visited {border-bottom: 2px solid black;}
+/** This is where I will style my main content**/
 
+#main {
+    width: 70%;
+}
 .main-content {
     height: 400px;
     padding: 40px 15px;
@@ -89,7 +93,6 @@ a {text-decoration: none;}
     color: #bbbbed;
     text-align: left;
     padding-top: 2%;
-    width: 70%;
     text-shadow: 2px 2px 8px black;
       }
 
@@ -100,7 +103,7 @@ a {text-decoration: none;}
 
       .highlights-list h3 {
     font-size: 25px;
-    color:#cccfff;
+    color:#551a8b;
     padding-top:50px;
       }
 
@@ -114,7 +117,8 @@ a {text-decoration: none;}
         font-weight: bold;
       }
 
-      
+   /** this is where I will style my footer**/   
+
 footer {
    
    text-align: left;
@@ -147,14 +151,27 @@ footer {
     
     /** media Querys **/
 
-    @media screen and (max-width: 1050px) {
-        #head {
-            width:60%
-            height:1050px;
+    @media screen and (max-width: 1060px) {
+        header nav main footer {
+            width:30%;
+            height:1060px;
             margin:0 auto;
         }
 
-        
-    }
+        h1 #head  { min-height: 100px;
+                    margin: 0 auto;
+                    width:30%;
+                    font-size: 50%;
+        }
 
 
+      h1 { min-height: 70px;
+           font-size: 100%;
+        }
+
+        li {
+            font-size: 30px;
+        }
+
+        .btn { float:right
+        }
