@@ -101,11 +101,20 @@ a {text-decoration: none;}
       .highlights-list h3 {
     font-size: 25px;
     color:#551a8b;
-    padding-top:30px;
+    padding-top:50px;
       }
 
+      .btn {
+         text-decoration: none;
+        border: 0.2px solid #000;
+        color:#ccccff;
+        background: #551a8b;
+        padding: 3px;
+        border-radius: 1px;
+      
+      }
 
-
+      
 footer {
    
    text-align: left;
@@ -136,6 +145,16 @@ footer {
 
 .contact-left {float: inline-start;}
     
-    
+    /** media Querys **/
+
+    @media screen and (max-width: 1050px) {
+        #head {
+            width:60%
+            height:1050px;
+            margin:0 auto;
+        }
+
+        
+    }
 
 
