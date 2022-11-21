@@ -47,7 +47,6 @@ h2 {font-family: Marhey, sans-serif;
 .about-header {
     
     text-align: center;
-    background-color: #c19a6b;
     width: 100%;
 }
 
@@ -151,8 +150,8 @@ a {text-decoration: none;}
     background: pink(255, 255, 255, 0.8);
     -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.13);
     box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 13%);
-    border-top: none;
-    border-bottom: none;
+    border-top: solid;
+    border-bottom: solid;
     margin: 0 auto;
     }
 
@@ -176,10 +175,13 @@ footer {
    
    text-align: left;
    padding: 0px 4%;
-    background-color: #c19a6b;
     margin: none;
     border-top: thin solid #ccccff  ;
 
+}
+
+#footer-home {
+    background-color: #c19a6b;
 }
 .social-media {
     float:right;
