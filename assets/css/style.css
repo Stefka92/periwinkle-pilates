@@ -44,6 +44,11 @@ h2 {font-family: Marhey, sans-serif;
 
 }
 
+header {
+    margin: 20px 7%;
+    text-align: center;
+}
+
 a {text-decoration: none;}
 
 #head {
@@ -78,6 +83,8 @@ a {text-decoration: none;}
 }
 
 .visited {border-bottom: 2px solid black;}
+
+
 /** This is where I will style my main content**/
 
 #main {
@@ -88,23 +95,29 @@ a {text-decoration: none;}
     padding: 40px 15px;
 }
 
-.tagline {
+.intro {
     position: absolute;
     color: #bbbbed;
     text-align: left;
     padding-top: 2%;
     text-shadow: 2px 2px 8px black;
+    font-size: 25px;
+    line-height: 40px;
       }
 
 
       .highlights-list {margin-inline: 2%;
-                            font-size:20px; 
-                            padding-block-end:20px;}
+                            font-size:18px; 
+                            padding-block-end:30px;
+                            padding-top: 80px;
+                            }
 
       .highlights-list h3 {
+       
+    padding-top: 20px;
     font-size: 25px;
     color:#551a8b;
-    padding-top:50px;
+    
       }
 
       .btn {
@@ -165,7 +178,7 @@ footer {
         }
 
 
-      h1 { min-height: 70px;
+      p { min-height: 70px;
            font-size: 100%;
         }
 
