@@ -45,9 +45,10 @@ h2 {font-family: Marhey, sans-serif;
 }
 
 .about-header {
-    margin: 20px 7%;
+    
     text-align: center;
     background-color: #c19a6b;
+    width: 100%;
 }
 
 a {text-decoration: none;}
@@ -134,10 +135,12 @@ a {text-decoration: none;}
       /** This is where I will style my "About" page**/
 
       .about-nav {
-        padding-inline-start: 80px;
-      }
+       
+        background-color: #c19a6b;
+}
+      
 
-     #about-main {background: plum;
+     #about-main {background: #bbbbed;
     background: pink(255, 255, 255, 0.8);
     -webkit-box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 13%);
     -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.13);
@@ -146,9 +149,20 @@ a {text-decoration: none;}
     border-bottom: none;
     margin: 0 auto;
     position: relative;
-    cursor: auto;
-    width: 86%;
-    padding: 2% 2%;}
+    }
+
+
+
+   #container {display: flexbox;
+                align-items: center;}
+
+                #container img {margin-right: 20px;}
+
+    .text-main {
+                color:#551a8b}
+
+    .text-main > h3 {color:black}
+   
 
    /** this is where I will style my footer**/   
 
