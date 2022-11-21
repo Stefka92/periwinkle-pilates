@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@600&display=swap');
 
+
 *
 {
     margin:0;
@@ -133,9 +134,7 @@ a {text-decoration: none;}
 
       /** This is where I will style my "About" page**/
 
-      .about-nav {
-       
-}
+      
 
 #hero-image {
     background-image: url(..//images/sand.jpg);
@@ -143,8 +142,7 @@ a {text-decoration: none;}
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-      
+} 
 
      #about-main {
     background: pink(255, 255, 255, 0.8);
@@ -155,18 +153,27 @@ a {text-decoration: none;}
     margin: 0 auto;
     }
 
+    #about-main h1 {
+        color: #ccccff;
+    text-shadow: 0 2px black;
+}
+    
+
 
 
    #container {display: flexbox;
                 align-items: center;}
 
     #container img {margin-right: 20px;
-                        float:right;}
+                        float:right;
+                    padding-left:15px;}
 
     .text-main {
-                color:#551a8b}
+        
+        padding-bottom: 20px;
+        font-size: 1.5em;}
 
-    .text-main > h3 {color:black}
+    .text-main > h3 {    color: #551a8b;}
    
 
    /** this is where I will style my footer**/   
