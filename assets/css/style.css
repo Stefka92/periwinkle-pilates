@@ -44,9 +44,10 @@ h2 {font-family: Marhey, sans-serif;
 
 }
 
-header {
+.about-header {
     margin: 20px 7%;
     text-align: center;
+    background-color: #c19a6b;
 }
 
 a {text-decoration: none;}
@@ -129,6 +130,25 @@ a {text-decoration: none;}
         border-radius: 50%;
         font-weight: bold;
       }
+
+      /** This is where I will style my "About" page**/
+
+      .about-nav {
+        padding-inline-start: 80px;
+      }
+
+     #about-main {background: plum;
+    background: pink(255, 255, 255, 0.8);
+    -webkit-box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 13%);
+    -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.13);
+    box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 13%);
+    border-top: none;
+    border-bottom: none;
+    margin: 0 auto;
+    position: relative;
+    cursor: auto;
+    width: 86%;
+    padding: 2% 2%;}
 
    /** this is where I will style my footer**/   
 
