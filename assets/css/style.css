@@ -195,8 +195,19 @@ a {
     color: #551a8b;
 }
 
+/** This is where I will style my about schedule**/
 
-/** this is where I will style my footer**/
+#schedule {
+    background-image: url(..//images/sea-water.webp);
+    background-size: cover;
+    background-position: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/** This is where I will style my footer**/
 
 footer {
 
