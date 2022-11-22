@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@600&display=swap');
 
 
-*
-{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     border: 0;
-    }
+}
 
-    body{
-      font-family: Marhey, sans-serif;
-      line-height: normal;
-    }
+body {
+    font-family: Marhey, sans-serif;
+    line-height: normal;
+}
 
 .background-image {
     background-image: url(..//images/beach.jpg);
@@ -21,23 +20,26 @@
     background-attachment: fixed;
 }
 
-header > h1 {
+header>h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     font-weight: bold;
     font-weight: 400%;
     letter-spacing: 4px;
     margin: 20%;
     border-top: 80;
-    }
+}
+
 header {
-    color:#ccccff;;
+    color: #ccccff;
+    ;
     padding: 1px;
     margin: 0;
     border: 0;
-    }
-  
-h2 {font-family: Marhey, sans-serif;
-    font-weight:800;
+}
+
+h2 {
+    font-family: Marhey, sans-serif;
+    font-weight: 800;
     text-align: center;
     letter-spacing: 3px;
     padding: 5px;
@@ -46,12 +48,14 @@ h2 {font-family: Marhey, sans-serif;
 }
 
 .about-header {
-    
+
     text-align: center;
     width: 100%;
 }
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
 #head {
     text-align: center;
@@ -61,19 +65,20 @@ a {text-decoration: none;}
     letter-spacing: 4px;
     font-family: cursive;
     line-height: 1;
-      
+
 }
+
 /** This is where I will style my nagiviation menu**/
 #Navigation {
     font-size: 120%;
     letter-spacing: 3px;
-    
-    }
+
+}
 
 #Navigation li {
     list-style-type: none;
     display: inline-flex;
-    padding:5px ;
+    padding: 5px;
     font-size: larger;
 
 }
@@ -84,7 +89,9 @@ a {text-decoration: none;}
 
 }
 
-.visited {border-bottom: 2px solid black;}
+.visited {
+    border-bottom: 2px solid black;
+}
 
 
 /** This is where I will style my main content**/
@@ -92,6 +99,7 @@ a {text-decoration: none;}
 #main {
     width: 70%;
 }
+
 .main-content {
     height: 400px;
     padding: 40px 15px;
@@ -105,36 +113,37 @@ a {text-decoration: none;}
     text-shadow: 2px 2px 8px black;
     font-size: 25px;
     line-height: 40px;
-      }
+}
 
 
-      .highlights-list {margin-inline: 2%;
-                            font-size:18px; 
-                            padding-block-end:30px;
-                            padding-top: 80px;
-                            }
+.highlights-list {
+    margin-inline: 2%;
+    font-size: 18px;
+    padding-block-end: 30px;
+    padding-top: 80px;
+}
 
-      .highlights-list h3 {
-       
+.highlights-list h3 {
+
     padding-top: 20px;
     font-size: 25px;
-    color:#551a8b;
-    
-      }
+    color: #551a8b;
 
-      .btn {
-        text-decoration: none;
-        border: 0.2px solid #c19a6b;
-        color: black;
-        background: #c19a6b;
-        padding: 5px;
-        border-radius: 50%;
-        font-weight: bold;
-      }
+}
 
-      /** This is where I will style my "About" page**/
+.btn {
+    text-decoration: none;
+    border: 0.2px solid #c19a6b;
+    color: black;
+    background: #c19a6b;
+    padding: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+}
 
-      
+/** This is where I will style my "About" page**/
+
+
 
 #hero-image {
     background-image: url(..//images/sand.jpg);
@@ -142,98 +151,118 @@ a {text-decoration: none;}
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-} 
+}
 
-     #about-main {
+#about-main {
     background: pink(255, 255, 255, 0.8);
     -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.13);
     box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 13%);
     border-top: solid;
     border-bottom: solid;
     margin: 0 auto;
-    }
+}
 
-    #about-main h1 {
-        color: #ccccff;
+#about-main h1 {
+    color: #ccccff;
     text-shadow: 0 2px black;
 }
-    
+
+#container {
+    display: flexbox;
+    align-items: center;
+}
+
+#container img {
+    margin-right: 20px;
+    float: right;
+    padding-left: 15px;
+}
+
+.text-main {
+
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.text-main > h3 {
+    color: #551a8b;
+}
 
 
-
-   #container {display: flexbox;
-                align-items: center;}
-
-    #container img {margin-right: 20px;
-                        float:right;
-                    padding-left:15px;}
-
-    .text-main {
-        
-        padding-bottom: 20px;
-        font-size: 1.5em;}
-
-    .text-main > h3 {    color: #551a8b;}
-   
-
-   /** this is where I will style my footer**/   
+/** this is where I will style my footer**/
 
 footer {
-   
-   text-align: left;
-   padding: 0px 4%;
+
+    text-align: left;
+    padding: 0px 4%;
     margin: none;
-    border-top: thin solid #ccccff  ;
+    border-top: thin solid #ccccff;
 
 }
 
 #footer-home {
     background-color: #c19a6b;
 }
+
 .social-media {
-    float:right;
-    letter-spacing:3px;
+    float: right;
+    letter-spacing: 3px;
     margin-left: 20px;
     font-weight: 200;
     width: 33%;
     margin-block-start: 4em;
     margin-block-end: 1em;
-   
-               }
-               
+
+}
+
 #contact {
-   
+
     text-align: left;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
 
-.contact-left {float: inline-start;}
-    
-    /** media Querys **/
+.contact-left {
+    float: inline-start;
+}
 
-    @media screen and (max-width: 1060px) {
-        header nav main footer {
-            width:30%;
-            height:1060px;
-            margin:0 auto;
-        }
+/** media Querys **/
 
-        h1 #head  { min-height: 100px;
-                    margin: 0 auto;
-                    width:30%;
-                    font-size: 50%;
-        }
+@media screen and (max-width: 1060px) {
+    header nav main footer {
+        width: 20%;
+        height: 1060px;
+        margin: 0 auto;
+    }
+
+    h1 #head {
+        min-height: 70px;
+        margin: 0 auto;
+        width: 20%;
+        font-size: 10%;
+    }
 
 
-      p { min-height: 70px;
-           font-size: 100%;
-        }
+    p {
+        min-height: 70px;
+        font-size: 60%;
+    }
 
-        li {
-            font-size: 30px;
-        }
+    li {
+        font-size: 30px;
+    }
 
-        .btn { float:right
-        }
+    .btn {
+        float: right
+    }
+
+    .about-header, #container {
+        min-height: 40px;
+        font-size: 60%;
+    }
+
+    #container img {
+        width: 50%;
+        float: left;
+    }
