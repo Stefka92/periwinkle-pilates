@@ -59,6 +59,11 @@ a {
     text-shadow: 2px 2px black;
 }
 
+.social-media > a {
+    color: #551a8b;
+    text-shadow: none;
+}
+
 #head {
     text-align: center;
     font-size: 700%;
@@ -183,7 +188,7 @@ a {
 .text-main {
 
     padding-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 .text-main > h3 {
@@ -266,7 +271,7 @@ footer {
         float: right
     }
 
-    .about-header, #container,{
+    .about-header, #container {
         min-height: 40px;
         font-size: 60%;
     }
@@ -275,3 +280,4 @@ footer {
         width: 50%;
         float: left;
     }
+}
