@@ -55,6 +55,8 @@ h2 {
 
 a {
     text-decoration: none;
+    color: wheat;
+    text-shadow: 2px 2px black;
 }
 
 #head {
@@ -232,32 +234,39 @@ footer {
 @media screen and (max-width: 1060px) {
     header nav main footer {
         width: 20%;
-        height: 1060px;
+       height: 1060px;
         margin: 0 auto;
     }
 
-    h1 #head {
-        min-height: 70px;
-        margin: 0 auto;
-        width: 20%;
-        font-size: 10%;
+    #header {
+        min-height: 40px;
+        font-size: 60%;
+    }
+    ul {
+        text-align: center;
+        
     }
 
 
     p {
         min-height: 70px;
         font-size: 60%;
+        
     }
 
-    li {
-        font-size: 30px;
-    }
+    .highlights-list, li {
+        font-size:100%;
+        padding-top: 0;
+        text-align: left;
+        }
+
+    
 
     .btn {
         float: right
     }
 
-    .about-header, #container {
+    .about-header, #container,{
         min-height: 40px;
         font-size: 60%;
     }
