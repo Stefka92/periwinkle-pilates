@@ -159,6 +159,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 #about-main {
@@ -180,11 +181,12 @@ a {
     align-items: center;
 }
 
-#container img {
-    background-image: url(../images/lady\ in\ yoga\ pose.jpg);
-    margin-right: 20px;
+.yoga-img {
+   margin-right: 20px;
     float: right;
-    padding-left: 15px;
+    padding-left: 20px;
+    width:500px;
+     height :auto;
 }
 
 .text-main {
@@ -287,8 +289,10 @@ footer {
 
     p {
         min-height: 70px;
-        font-size: 60%;
-        line-height: 20px;
+        font-size: 90%;
+        line-height: 25px;
+        color: bisque;
+        
     }
 
     .highlights-list, li {
@@ -297,19 +301,58 @@ footer {
         text-align: left;
         }
 
-    
+        .highlights-list h3 {
+            padding-top: 60px;
+        }
+
+        .highlights-list {margin-top: 50%;}
 
     .btn {
         float: right
     }
 
-    .about-header, #container {
+    .about-header {
         min-height: 40px;
         font-size: 60%;
     }
 
+    #container{
+        font-size: 100%;
+    }
+    #hero-image {
+        background-size: cover;
+    }
+
     #container img {
         width: 50%;
-        float: left;
+        float: right;
+        margin: 0 auto;
     }
+
+    #schedule {
+        min-height: 40px;
+        font-size: 60%;
+    }
+
+    #schedule div {
+        padding: 0 none;
+        width:32%;
+        height:auto;
 }
+
+#about-main h1 {
+    padding-top: 10px;
+    text-align: left;
+    margin-inline-start: 2px;
+}
+#container p {
+            font-size: 100%;
+            display: inline;
+}
+
+
+
+}
+    
+
+   
