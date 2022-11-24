@@ -244,6 +244,16 @@ a {
     background-color: #551a8b;
 }
 
+.sign-nav {
+    background-color: #551a8b;
+    
+}
+
+.sign-up1 {
+    text-align:center;
+    background-color: #c19a6b;
+}
+
 /** This is where I will style my footer**/
 
 footer {
