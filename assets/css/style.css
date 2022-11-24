@@ -18,6 +18,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100vw;
 }
 
 header>h1 {
@@ -116,19 +117,25 @@ a {
     position: absolute;
     color: #bbbbed;
     text-align: left;
-    padding-top: 2%;
+    padding-top: 10%;
     text-shadow: 2px 2px 8px black;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 40px;
-    margin: 50px 0;
+    margin: 40px 0 20px;
 }
+
+#highlight{
+   
+        float: left;
+        padding-top: 80px;
+        margin-bottom: 20px;
+   }
 
 
 .highlights-list {
-    margin-inline: 2%;
-    font-size: 18px;
-    padding-block-end: 30px;
-    padding-top: 80px;
+    margin-inline: 5%;
+    font-size: 22px;
+    padding-top: 28%;
 }
 
 .highlights-list h3 {
@@ -174,6 +181,7 @@ a {
 #about-main h1 {
     color: #ccccff;
     text-shadow: 0 2px black;
+    padding-bottom: 20px;
 }
 
 #container {
@@ -185,6 +193,7 @@ a {
    margin-right: 20px;
     float: right;
     padding-left: 20px;
+    padding-top: 40px;
     width:500px;
      height :auto;
 }
@@ -229,6 +238,11 @@ a {
     color: black;
 }
 
+/** This is where I will style my Sign-up page **/
+
+#Signup-header {
+    background-color: #551a8b;
+}
 
 /** This is where I will style my footer**/
 
@@ -262,6 +276,7 @@ footer {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    margin-bottom: 0;
 }
 
 .contact-left {
@@ -279,7 +294,7 @@ footer {
 
     #header {
         min-height: 40px;
-        font-size: 60%;
+        font-size: 50%;
     }
     ul {
         text-align: center;
@@ -294,6 +309,17 @@ footer {
         color: bisque;
         
     }
+
+    #highlight {
+        min-height: 40px;
+        font-size: 60%;
+        margin-bottom: 20px;
+    }
+
+    #highlight div {
+        padding: 0 none;
+        width:32%;
+        height:auto;}
 
     .highlights-list, li {
         font-size:100%;
@@ -338,7 +364,13 @@ footer {
         padding: 0 none;
         width:32%;
         height:auto;
+        color: black;
+    font-size: 150%;
+    text-shadow: 0px 1px #9f711b;
 }
+
+#schedule h2 {color: #bbbbed;
+font-size:100%;}
 
 #about-main h1 {
     padding-top: 10px;
@@ -351,8 +383,4 @@ footer {
 }
 
 
-
-}
     
-
-   
