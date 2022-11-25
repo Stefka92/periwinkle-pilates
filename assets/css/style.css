@@ -331,6 +331,15 @@ a {
 
     }
 
+    .message {
+        background-color: rgb(204 204 255);
+    color: black;
+    border: 1px solid black;
+    border-width: 2px;
+    margin-top: 50px;
+    display: block;
+    }
+
     
 
 /** This is where I will style my footer**/
