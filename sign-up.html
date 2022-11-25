@@ -33,17 +33,23 @@
 
 <section id="form-section">
 
-    <form class="form">
+    <form method="get" action="thank-you.html" class="form">
         <label for="First-Name">First Name</label>
-        <input type="text" name="First-Name" placeholder="Enter your First name">
+        <input type="text" name="First-Name" placeholder="Enter your First name" required class="text-input">
         <label for="Last-Name">Last Name</label>
-        <input type="text" name="Last-Name" placeholder="Enter your Last name">
+        <input type="text" name="Last-Name" placeholder="Enter your Last name"
+        required class="text-input">
         <label for="Email">Email</label>
-        <input type="email" name="Email" placeholder="Enter your Email">
+        <input type="email" name="Email" placeholder="Enter your Email"
+        required class="text-input">
         <label for="DOB">Date of Birth</label>
-        <input type="date" name="DOB" placeholder="Enter your date of birth">
+        <input type="date" name="DOB" placeholder="Enter your date of birth"
+        required class="text-input">
         <label for="Contact-Number">Contact Number</label>
-        <input type="text" name="Contact-Number" placeholder="Enter your contact number">
+        <input type="text" name="Contact-Number" placeholder="Enter your contact number"
+        required class="text-input">
+        <textarea name="Requests" placeholder="Add any special requirements here"></textarea>
+        <button class="signupbtn" type="submit" name="Sign up now!">Sign up now!</button>
     </form>
 </section>
    
