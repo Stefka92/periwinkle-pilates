@@ -27,16 +27,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+
 }
 
 header>h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     font-weight: bold;
-    font-weight: 400%;
+    font: 400%;
     letter-spacing: 4px;
     margin: 20%;
-    border-top: 80;
+    border-top: 80px;
 }
 
 header {
@@ -69,8 +69,9 @@ a {
     text-shadow: 2px 2px black;
 }
 
-.social-media > a {
+.social-media>a {
     color: #551a8b;
+    font-size: 18pt;
     text-shadow: none;
 }
 
@@ -114,7 +115,7 @@ a {
 /** This is where I will style my main content**/
 
 #main {
-    width:70%
+    width: 70%
 }
 
 .main-content {
@@ -133,12 +134,12 @@ a {
     margin: 40px 0 20px;
 }
 
-#highlight{
-   
-        float: left;
-        padding-top: 80px;
-        margin-bottom: 20px;
-   }
+#highlight {
+
+    float: left;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
 
 
 .highlights-list {
@@ -177,11 +178,10 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+
 }
 
 #about-main {
-    background: pink(255, 255, 255, 0.8);
     -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.13);
     box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 13%);
     border-top: solid;
@@ -196,18 +196,18 @@ a {
 }
 
 #container {
-    display: flexbox;
+
     align-items: center;
 }
 
 .yoga-img {
-   margin-right: 20px;
+    margin-right: 20px;
     float: right;
     padding-left: 20px;
     padding-top: 40px;
-    width:500px;
-     height :auto;
-     color:#14629d;
+    width: 500px;
+    height: auto;
+    color: #14629d;
 }
 
 
@@ -217,7 +217,7 @@ a {
     font-size: 1.1em;
 }
 
-.text-main > h3 {
+.text-main>h3 {
     color: #4c3a33;
 }
 
@@ -226,25 +226,23 @@ a {
 #schedule {
     background-image: url(..//images/sea-water.webp);
     background-size: cover;
-    background-position: no-repeat;
-    background-position: center;
     overflow: hidden;
     width: 100%;
 }
 
 #schedule div {
-    color:#551a8b;
+    color: #551a8b;
     background-color: rgb(0 0 0 / 13%);
-    width:33%;
-    height:300px;
-    float:left;
+    width: 33%;
+    height: 300px;
+    float: left;
     padding-top: 10px;
     text-align: center;
     border: 2px solid white;
 }
 
 #schedule ul {
-    list-style: none ;
+    list-style: none;
 }
 
 #schedule h2 {
@@ -262,7 +260,7 @@ a {
 }
 
 .sign-up1 {
-    text-align:center;
+    text-align: center;
     background-color: rgb(19 126 199);
     font-size: 10px;
 }
@@ -276,44 +274,45 @@ a {
 }
 
 
-  .form  {
+.form {
     margin: 200px 20% 0 0;
     color: #fff;
     background-color: rgb(0 0 0 / 13%);
     max-width: 400px;
     position: absolute;
     right: 10%;
-    padding: 80px;}
+    padding: 80px;
+}
 
-    input {
-        width:100%;
-        border: 2px solid black;
-    }
+input {
+    width: 100%;
+    border: 2px solid black;
+}
 
-    textarea {
-        resize: vertical;
-        max-width: 150px;
-        border: 2px solid black;
-    }
+textarea {
+    resize: vertical;
+    max-width: 150px;
+    border: 2px solid black;
+}
 
-    label {
-        color: #ffff00;
-    }
+label {
+    color: #ffff00;
+}
 
 
-    .text-input {
-        width:100%;
-        height:25px;
-        margin:5px 0 20px 0;
-        border-radius :2px;
-    }
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+}
 
-    .text-input:hover {
-        border-color: red;
-        
-    }
+.text-input:hover {
+    border-color: red;
 
-    .signupbtn {
+}
+
+.signupbtn {
     width: 30%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -323,24 +322,24 @@ a {
     display: block;
 }
 
-    
 
-    ::placeholder {
-        color:black;
-        opacity: 1;
 
-    }
+::placeholder {
+    color: black;
+    opacity: 1;
 
-    .message {
-        background-color: rgb(204 204 255);
+}
+
+.message {
+    background-color: rgb(204 204 255);
     color: black;
     border: 1px solid black;
     border-width: 2px;
     margin-top: 50px;
     display: block;
-    }
+}
 
-    
+
 
 /** This is where I will style my footer**/
 
@@ -348,7 +347,7 @@ footer {
 
     text-align: left;
     padding: 0px 4%;
-    margin: none;
+    margin: 0;
     border-top: thin solid #ccccff;
 
 }
@@ -388,12 +387,13 @@ footer {
 @media screen and (max-width: 1060px) {
     header nav main footer {
         width: 20%;
-       height: 1060px;
+        height: 1060px;
         margin: 0 auto;
     }
 
-    #header, #signup-header {
-        
+    #header,
+    #signup-header {
+
         font-size: 50%;
     }
 
@@ -401,36 +401,40 @@ footer {
         width: 70%;
         display: flex;
     }
-    
+
     .main-content {
         height: 200px;
-        padding: 0 none;
+        padding: 0;
     }
+
     .background-image {
         height: 100vh;
     }
-    .intro {
-    padding-top: 0 none;
-    margin: 0;
-    line-height: normal;
-}
-   
 
-    .highlights-list, li {
-        font-size:100%;
+    .intro {
+        padding-top: 0;
+        margin: 0;
+        line-height: normal;
+    }
+
+
+    .highlights-list,
+    li {
+        font-size: 100%;
         padding-top: 0;
         text-align: left;
         text-shadow: 0 2px black;
-        }
+    }
 
-        .highlights-list h3 {
-            padding-top: 60px;
-            font-size: 35px;
-    
-        }
+    .highlights-list h3 {
+        padding-top: 60px;
+        font-size: 35px;
 
-        .highlights-list {
-            margin-top: 30%;}
+    }
+
+    .highlights-list {
+        margin-top: 30%;
+    }
 
     ul {
         text-align: center;
@@ -439,10 +443,9 @@ footer {
 
 
     p {
-        
+
         color: bisque;
         padding: 0;
-        
     }
 
     li {
@@ -450,22 +453,25 @@ footer {
         padding-top: 0;
         text-align: left;
     }
-        
-    
-    
+
+
+
     .btn {
         float: right
     }
 
-    .about-header, .sign-nav {
+    .about-header,
+    .sign-nav {
         min-height: 40px;
         font-size: 60%;
     }
 
-    #container{
+    #container {
         font-size: 100%;
     }
-    #hero-image, .background-image {
+
+    #hero-image,
+    .background-image {
         background-size: cover;
     }
 
@@ -475,16 +481,18 @@ footer {
         margin: 0 auto;
     }
 
-    #schedule, #form-section, #main {
+    #schedule,
+    #form-section,
+    #main {
         min-height: 40px;
         font-size: 60%;
     }
 
     .form {
 
-        padding: 0 none;
-        width:60%;
-        height:auto;
+        padding: 0;
+        width: 60%;
+        height: auto;
         right: auto;
         font-size: 150%;
 
@@ -497,86 +505,103 @@ footer {
     }
 
     #schedule div {
-        padding: 0 none;
-        width:32%;
-        height:auto;
+        padding: 0;
+        width: 32%;
+        height: auto;
         color: black;
-    font-size: 130%;
-    text-shadow: 0px 1px #9f711b;
-}
-
-#schedule h2 {color: #bbbbed;
-font-size:100%;}
-
-#about-main h1 {
-    padding-top: 10px;
-    text-align: left;
-    margin-inline-start: 2px;
-}
-#container p {
-            font-size: 100%;
-            display: inline;
-}
-
-/** media query for smaller devices **/
-
-@media screen and (max-width:950px) {
-
-    #main {
-        clear:left;
-        float:left;
-        margin-left:10px;
-        margin-bottom:20px;
+        font-size: 130%;
+        text-shadow: 0px 1px #9f711b;
     }
-    
-    .main-content {
-        height: 200px;
-        padding: 0 none;
+
+    #schedule h2 {
+        color: #bbbbed;
+        font-size: 100%;
     }
-    .background-image {
-        height: 100vh;
-    }
-    .intro {
-    padding-top: 0 none;
-    margin: 0;
-    line-height: normal;
-}
 
-p {
-     font-size: 45%;
-    color: bisque;
-    padding: 0;
-    
-}
-#highlight {
-    padding-top:20px ;
-}
-
-li {
-    font-size: 20px;
-    padding-top: 0;
-    text-align: left;
-    color: black;
-}
-
-.highlights-list h3 {
-    padding-top: 50px;
-    font-size: 25px; }
-
-    .highlights-list, li {
-        font-size:85%;
-        padding-top: 0;
+    #about-main h1 {
+        padding-top: 10px;
         text-align: left;
-        text-shadow:none;
+        margin-inline-start: 2px;
+    }
+
+    #container p {
+        font-size: 100%;
+        display: inline;
+    }
+
+    /** media query for smaller devices **/
+
+    @media screen and (max-width:950px) {
+
+        #main {
+            clear: left;
+            float: left;
+            margin-left: 10px;
+            margin-bottom: 20px;
+        }
+
+        .main-content {
+            height: 200px;
+            padding: 0;
+        }
+
+        .background-image {
+            height: 100vh;
+        }
+
+        .intro {
+            padding-top: 0;
+            margin: 0;
+            line-height: normal;
+        }
+
+        p {
+            font-size: 45%;
+            color: bisque;
+            padding: 0;
+        }
+
+        #container>p {
+            color: black;
+        }
+
+
+        #highlight {
+            padding-top: 60px;
+        }
+
+        li {
+            font-size: 20px;
+            padding-top: 0;
+            text-align: left;
+            color: black;
+        }
+
+        .highlights-list h3 {
+            padding-top: 50px;
+            font-size: 25px;
+        }
+
+        .highlights-list {
+
+            font-size: 85%;
+            padding-top: 20px;
+            text-align: left;
+            text-shadow: none;
+        }
+
+        li {
+            font-size: 130%;
+            text-shadow: none;
         }
 
         .btn {
             right: auto;
             border-radius: 0;
-            float: left;
+            float: right;
         }
 
-        .message > p {
+        .message>p {
             background-color: wheat;
             color: black;
             font-size: 150%;
@@ -585,4 +610,5 @@ li {
         .thanks {
             background-color: #551a8b;
         }
+    }
     }
