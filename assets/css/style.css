@@ -576,3 +576,13 @@ li {
             display: inline-block;
             float: left;
         }
+
+        .message > p {
+            background-color: wheat;
+            color: black;
+            font-size: 150%;
+        }
+
+        .thanks {
+            background-color: #551a8b;
+        }
