@@ -114,7 +114,7 @@ a {
 /** This is where I will style my main content**/
 
 #main {
-    width: 70%;
+    width:70%
 }
 
 .main-content {
@@ -253,7 +253,7 @@ a {
 
 /** This is where I will style my Sign-up page **/
 
-#Signup-header {
+#signup-header {
     background-color: rgb(140, 120, 130, 1);
 }
 
@@ -383,6 +383,8 @@ footer {
 
 /** media Querys **/
 
+/** for larger and medium size screens **/
+
 @media screen and (max-width: 1060px) {
     header nav main footer {
         width: 20%;
@@ -390,10 +392,46 @@ footer {
         margin: 0 auto;
     }
 
-    #header {
-        min-height: 40px;
+    #header, #signup-header {
+        
         font-size: 50%;
     }
+
+    #main {
+        width: 70%;
+        display: flex;
+    }
+    
+    .main-content {
+        height: 200px;
+        padding: 0 none;
+    }
+    .background-image {
+        height: 100vh;
+    }
+    .intro {
+    padding-top: 0 none;
+    margin: 0;
+    line-height: normal;
+}
+   
+
+    .highlights-list, li {
+        font-size:100%;
+        padding-top: 0;
+        text-align: left;
+        text-shadow: 0 2px black;
+        }
+
+        .highlights-list h3 {
+            padding-top: 60px;
+            font-size: 35px;
+    
+        }
+
+        .highlights-list {
+            margin-top: 30%;}
+
     ul {
         text-align: center;
         margin-top: 20px;
@@ -401,41 +439,25 @@ footer {
 
 
     p {
-        min-height: 70px;
-        font-size: 90%;
-        line-height: 25px;
+        
         color: bisque;
+        padding: 0;
         
     }
 
-    #highlight {
-        min-height: 40px;
-        font-size: 60%;
-        margin-bottom: 20px;
-    }
-
-    #highlight div {
-        padding: 0 none;
-        width:32%;
-        height:auto;}
-
-    .highlights-list, li {
-        font-size:100%;
+    li {
+        font-size: 30px;
         padding-top: 0;
         text-align: left;
-        }
-
-        .highlights-list h3 {
-            padding-top: 60px;
-        }
-
-        .highlights-list {margin-top: 50%;}
-
+    }
+        
+    
+    
     .btn {
         float: right
     }
 
-    .about-header {
+    .about-header, .sign-nav {
         min-height: 40px;
         font-size: 60%;
     }
@@ -443,7 +465,7 @@ footer {
     #container{
         font-size: 100%;
     }
-    #hero-image {
+    #hero-image, .background-image {
         background-size: cover;
     }
 
@@ -453,9 +475,25 @@ footer {
         margin: 0 auto;
     }
 
-    #schedule {
+    #schedule, #form-section, #main {
         min-height: 40px;
         font-size: 60%;
+    }
+
+    .form {
+
+        padding: 0 none;
+        width:60%;
+        height:auto;
+        right: auto;
+        font-size: 150%;
+
+    }
+
+    .signupbtn {
+        width: 30%;
+        height: 55px;
+        margin: 5px 0 20px 0;
     }
 
     #schedule div {
@@ -480,5 +518,61 @@ font-size:100%;}
             display: inline;
 }
 
+/** media query for smaller devices **/
 
+@media screen and (max-width:950px) {
+
+    #main {
+        clear:left;
+        float:left;
+        margin-left:10px;
+        margin-bottom:20px;
+    }
     
+    .main-content {
+        height: 200px;
+        padding: 0 none;
+    }
+    .background-image {
+        height: 100vh;
+    }
+    .intro {
+    padding-top: 0 none;
+    margin: 0;
+    line-height: normal;
+}
+
+p {
+     font-size: 45%;
+    color: bisque;
+    padding: 0;
+    
+}
+#highlight {
+    padding-top:20px ;
+}
+
+li {
+    font-size: 20px;
+    padding-top: 0;
+    text-align: left;
+    color: black;
+}
+
+.highlights-list h3 {
+    padding-top: 50px;
+    font-size: 25px; }
+
+    .highlights-list, li {
+        font-size:85%;
+        padding-top: 0;
+        text-align: left;
+        text-shadow:none;
+        }
+
+        .btn {
+            right: auto;
+            border-radius: 0;
+            display: inline-block;
+            float: left;
+        }
