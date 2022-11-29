@@ -241,6 +241,10 @@ a {
     border: 2px solid white;
 }
 
+#schedule li {
+    color:white;
+}
+
 #schedule ul {
     list-style: none;
 }
@@ -447,7 +451,7 @@ footer {
         color: bisque;
         padding-top: 10%; }
 
-        #container>p {
+    #container>p {
             color: black;
         }
 
@@ -455,7 +459,7 @@ footer {
         font-size: 2em;
         padding-top: 0;
         text-align: left;
-        color: black;
+        color: white;
     }
 
 
@@ -474,6 +478,7 @@ footer {
         font-size: 100%;
     }
 
+
     #hero-image,
     .background-image {
         background-size: cover;
@@ -489,7 +494,7 @@ footer {
     #form-section,
     #main {
         min-height: 40px;
-        font-size: 60%;
+        font-size: 65%;
     }
 
     .form {
@@ -518,8 +523,8 @@ footer {
     }
 
     #schedule h2 {
-        color: #bbbbed;
-        font-size: 100%;
+        color: #c39c73;
+    font-size: 2.5em;
     }
 
     #about-main h1 {
@@ -572,7 +577,6 @@ footer {
             color: black;
         }
 
-
         #highlight {
             padding-top: 60px;
         }
@@ -599,6 +603,11 @@ footer {
             right: auto;
             border-radius: 0;
             float: right;
+        }
+
+        #schedule li {
+            color: black;
+            font-size: 70%;
         }
 
         .message>p {
@@ -646,8 +655,11 @@ footer {
             #container>p {
                 color: black;
             }
-    
-    
+
+            #schedule h2 {
+                color: #c39c73;
+                font-size: 100%;}
+
             #highlight {
                 padding-top: 60px;
             }
@@ -669,6 +681,7 @@ footer {
                 font-size: 38%;
                 text-shadow: none;
             }
+
     
             .btn {
                 right: auto;
