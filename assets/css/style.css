@@ -382,7 +382,7 @@ footer {
 
 /** media Querys **/
 
-/** for larger and medium size screens **/
+/** for larger screens **/
 
 @media screen and (max-width: 1060px) {
     header nav main footer {
@@ -421,7 +421,7 @@ footer {
     .highlights-list,
     li {
         font-size: 100%;
-        padding-top: 0;
+        padding-top: 20%;
         text-align: left;
         text-shadow: 0 2px black;
     }
@@ -443,15 +443,19 @@ footer {
 
 
     p {
-
+        font-size: 1em;
         color: bisque;
-        padding: 0;
-    }
+        padding-top: 10%; }
+
+        #container>p {
+            color: black;
+        }
 
     li {
-        font-size: 30px;
+        font-size: 2em;
         padding-top: 0;
         text-align: left;
+        color: black;
     }
 
 
@@ -529,9 +533,12 @@ footer {
         display: inline;
     }
 
+    
+
     /** media query for smaller devices **/
 
-    @media screen and (max-width:950px) {
+    @media screen and (max-width:765px) {
+
 
         #main {
             clear: left;
@@ -570,28 +577,21 @@ footer {
             padding-top: 60px;
         }
 
-        li {
-            font-size: 20px;
-            padding-top: 0;
-            text-align: left;
-            color: black;
-        }
-
         .highlights-list h3 {
-            padding-top: 50px;
+            padding-top: 20px;
             font-size: 25px;
         }
 
         .highlights-list {
 
-            font-size: 85%;
-            padding-top: 20px;
+            font-size: 2em;
+             padding-top: 0;
             text-align: left;
             text-shadow: none;
         }
 
         li {
-            font-size: 130%;
+            font-size: 35%;
             text-shadow: none;
         }
 
@@ -611,4 +611,90 @@ footer {
             background-color: #551a8b;
         }
     }
-    }
+     
+
+          @media screen and (max-device-width:765px) {
+
+            #main {
+                clear: left;
+                float: left;
+                margin-left: 10px;
+                margin-bottom: 20px;
+            }
+    
+            .main-content {
+                height: 200px;
+                padding: 0;
+            }
+    
+            .background-image {
+                height: 100vh;
+            }
+    
+            .intro {
+                padding-top: 0;
+                margin: 0;
+                line-height: normal;
+            }
+    
+            p {
+                font-size: 45%;
+                color: bisque;
+                padding: 0;
+            }
+    
+            #container>p {
+                color: black;
+            }
+    
+    
+            #highlight {
+                padding-top: 60px;
+            }
+    
+            .highlights-list h3 {
+                padding-top: 40px;
+                font-size: 25px;
+            }
+    
+            .highlights-list {
+    
+                font-size: 2em;
+                 padding-top: 0;
+                text-align: left;
+                text-shadow: none;
+            }
+    
+            li {
+                font-size: 38%;
+                text-shadow: none;
+            }
+    
+            .btn {
+                right: auto;
+                border-radius: 0;
+                float: left;
+            }
+    
+            .message>p {
+                background-color: wheat;
+                color: black;
+                font-size: 150%;
+            }
+    
+            .thanks {
+                background-color: #551a8b;
+            }
+
+            footer {
+                font-size: 50%;
+            }
+
+            .social-media a {
+                font-size:10pt;
+            }
+
+          }
+        }
+          
+    
