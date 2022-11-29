@@ -502,7 +502,7 @@ footer {
         padding: 0;
         width: 60%;
         height: auto;
-        right: auto;
+        right: 0;
         font-size: 150%;
 
     }
@@ -540,7 +540,7 @@ footer {
 
     
 
-    /** media query for smaller devices **/
+    /** media query for medium and smaller devices **/
 
     @media screen and (max-width:765px) {
 
@@ -604,6 +604,7 @@ footer {
             border-radius: 0;
             float: right;
         }
+
 
         #schedule li {
             color: black;
@@ -687,6 +688,10 @@ footer {
                 right: auto;
                 border-radius: 0;
                 float: left;
+            }
+
+            .form {
+                right:0;
             }
     
             .message>p {
