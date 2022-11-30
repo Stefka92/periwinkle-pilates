@@ -111,6 +111,34 @@ The website uses a variety of colours that are associated with the beach. The he
 I used Google fonts “Marher” throughout the website as after trialing several different fonts I found this one stood out the most as it was clear and still ledable on smaller devices.
 
 ![](assets/images/fontpreview.jpg)
+
+## Features
+This is a fully responsive website which can be viewed on laptop, tablet and mobile devices.
+The Website is made up of three main pages and a page that displays a thank you message.
+
+All Main pages have
+- A title which links you back to the home page when clicked. 
+- A H1 heading for the title and a h2 heading for the tagline underneath.
+- A responsive navigation menu located at the top of the page.
+- A Footer which contains contact information made up of h3 and h4 elements and external links to both facebook and instagram when clicked.
+
+The Home page contains 
+ - A paragraph with a brief description of what the website is offering made up of p and br elements.
+- A button that links you to the about page when clicked.
+- An unordered highlights list.
+
+The about page contains
+- A detailed section about the retreat made up of p, H1, H3 & BR elements.
+- An Image of a lady on the beach in a pilates pose.
+- A table containing the 3 day schedule made up of H2 Headings and unordered list items.
+
+The Sign up page contains
+- A form which consists of text input, email, date and number which are all required so you cannot submit the form if these fields are not complete.
+
+The color palate changes when viewed on mobile and tablet devices as the font was not clear on smaller devices. 
+
+
+
  
 ### Languages Used
 HTML - Used as the basic building block for the project and to structure the content.
@@ -148,6 +176,21 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 4. Scroll down to Pages on the left hand side of the navigation bar and click on this link.
 6. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
 7. Click Save. Your live Github Pages site is now deployed at the URL shown (This may take a few minutes to show up).
+
+**How to Fork**
+If you would like to make changes to the website without affecting the original repository you can do so by making a copy.
+1. Click the GitHub repository you wish to fork.
+2. Click on the fork button located in the top right hand corner.
+
+ **How to clone**
+If you would like to download your repository and store it locally you can do so by cloning it
+1.Click the GitHub repository you wish to clone.
+2.Click on the drop down arrow on the Code button located on the top right.
+3.Select and the link that appears.
+4.Open Gitpod & select the location where you would like the clone to be saved.
+5.In the terminal type 'git clone' and paste the link.
+6.Press enter to create your local clone.
+
  
 ## Testing
 To test my website I went through the following tests:
