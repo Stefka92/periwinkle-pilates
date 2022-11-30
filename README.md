@@ -91,17 +91,32 @@ Please note the actual website has changed Since these wireframes.
 During the building process I decided to Change the home page and added an image as the background as I felt it stood out more as I had not much content on the home page as I did not want it cluttered. I also added a button to link to the about page if the user wanted to find out more.
 I also decided to change my about page slightly and added my image opposite the text as I felt it looked better this way.
 
+**Home Wireframe**
+
+![](assets/images/home%20wireframe.jpg)
+
+**About Wireframe**
+
+![](assets/images/aboutwireframe.jpg)
+
+**Sign-up Wireframe**
+
+![](assets/images/formwireframe.jpg)
+
 ## Surface
 The website uses a variety of colours that are associated with the beach. The heading is a periwinkle shade which is carried throughout the website to represent the Website name. The brown and wheat colors are to represent the sand. The grey colours are to bring out the colors of the rocks on the beach. The blue colours are to represent the water and give that blue water calming effect. The colour palette was created using the https://coolors.co/ website.
 
+![](assets/images/projectonecolors.png)
 
+I used Google fonts “Marher” throughout the website as after trialing several different fonts I found this one stood out the most as it was clear and still ledable on smaller devices.
 
-I used Google fonts “Maher” throughout the website as after trialing several different fonts I found this one stood out the most as it was clear and still ledable on smaller devices.
+![](assets/images/fontpreview.jpg)
  
 ### Languages Used
 HTML - Used as the basic building block for the project and to structure the content.
 CSS - Used to style the web content.
-Frameworks, Libraries & Programs Used
+
+## Frameworks, Libraries & Programs Used
 https://lucid.app/ - Used to create wireframes.
 Git - For version control.
 Github - To save and store the project files for the website.
@@ -141,9 +156,29 @@ I carried out each test using different browsers which included google chrome, f
 ### Lighthouse testing
  
 I used Lighthouse on google chrome to test the performance, accessibility, best practices and seo.
+
+**Home page**
+
+![](assets/images/performancehome.jpg)
+
+**Sign up page**
+
+![](assets/images/performancesignup.jpg)
  
 ### HTML and CSS Validation
+
 I used W3C to test both my HTML and CSS
+
+**Showing errors**
+
+![](assets/images/errors.jpg)
+
+**passed**
+
+![](assets/images/passed.jpg)
+
+## color.a11y.com
+I used color.a11y to test my colour contrast
  
  
  
