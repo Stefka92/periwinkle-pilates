@@ -1,718 +1,552 @@
 @import url('https://fonts.googleapis.com/css2?family=Marhey:wght@600&display=swap');
-
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
+ *  {
+     margin: 0;
+     padding: 0;
+     border: 0;
 }
-
-body {
-    font-family: Marhey, sans-serif;
-    line-height: normal;
+ body {
+     font-family: Marhey, sans-serif;
+     line-height: normal;
 }
-
-.background-image {
-    background-image: url(..//images/beach.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vw;
+ .background-image {
+     background-image: url(..//images/beach.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 100vw;
 }
-
-#hero-image {
-    background-image: url(..//images/sand.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
+ #hero-image {
+     background-image: url(..//images/sand.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
 }
-
-header>h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
-    font-weight: bold;
-    font: 400%;
-    letter-spacing: 4px;
-    margin: 20%;
-    border-top: 80px;
+ header>h1 {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+     font-weight: bold;
+     font: 400%;
+     letter-spacing: 4px;
+     margin: 20%;
+     border-top: 80px;
 }
-
-header {
-    color: #ccccff;
-    ;
-    padding: 1px;
-    margin: 0;
-    border: 0;
+ header {
+     color: #ccccff;
+     ;
+     padding: 1px;
+     margin: 0;
+     border: 0;
 }
-
-h2 {
-    font-family: Marhey, sans-serif;
-    font-weight: 800;
-    text-align: center;
-    letter-spacing: 3px;
-    padding: 5px;
-    text-shadow: 2px 2px 5px black;
-
+ h2 {
+     font-family: Marhey, sans-serif;
+     font-weight: 800;
+     text-align: center;
+     letter-spacing: 3px;
+     padding: 5px;
+     text-shadow: 2px 2px 5px black;
 }
-
-.about-header {
-
-    text-align: center;
-    width: 100%;
+ .about-header {
+     text-align: center;
+     width: 100%;
 }
-
-a {
-    text-decoration: none;
-    color: wheat;
-    text-shadow: 2px 2px black;
+ a {
+     text-decoration: none;
+     color: wheat;
+     text-shadow: 2px 2px black;
 }
-
-.social-media>a {
-    color: #551a8b;
-    font-size: 18pt;
-    text-shadow: none;
+ .social-media>a {
+     color: #551a8b;
+     font-size: 18pt;
+     text-shadow: none;
 }
-
-#head {
-    text-align: center;
-    font-size: 700%;
-    color: #ccccff;
-    text-shadow: 4px 4px 5px black;
-    letter-spacing: 4px;
-    font-family: cursive;
-    line-height: 1;
-
+ #head {
+     text-align: center;
+     font-size: 700%;
+     color: #ccccff;
+     text-shadow: 4px 4px 5px black;
+     letter-spacing: 4px;
+     font-family: cursive;
+     line-height: 1;
 }
-
 /** This is where I will style my nagiviation menu**/
-#Navigation {
-    font-size: 120%;
-    letter-spacing: 3px;
-
+ #Navigation {
+     font-size: 120%;
+     letter-spacing: 3px;
 }
-
-#Navigation li {
-    list-style-type: none;
-    display: inline-flex;
-    padding: 5px;
-    font-size: larger;
-
+ #Navigation li {
+     list-style-type: none;
+     display: inline-flex;
+     padding: 5px;
+     font-size: larger;
 }
-
-#Navigation a:hover {
-    border-bottom: 1px solid grey;
-    color: #ccccff;
-
+ #Navigation a:hover {
+     border-bottom: 1px solid grey;
+     color: #ccccff;
 }
-
-.visited {
-    border-bottom: 2px solid black;
+ .visited {
+     border-bottom: 2px solid black;
 }
-
-
 /** This is where I will style my main content**/
-
-#main {
-    width: 70%
+ #main {
+     width: 70% 
 }
-
-.main-content {
-    height: 400px;
-    padding: 40px 15px;
+ .main-content {
+     height: 400px;
+     padding: 40px 15px;
 }
-
-.intro {
-    position: absolute;
-    color: #bbbbed;
-    text-align: left;
-    padding-top: 10%;
-    text-shadow: 2px 2px 8px black;
-    font-size: 30px;
-    line-height: 40px;
-    margin: 40px 0 20px;
+ .intro {
+     position: absolute;
+     color: #bbbbed;
+     text-align: left;
+     padding-top: 10%;
+     text-shadow: 2px 2px 8px black;
+     font-size: 30px;
+     line-height: 40px;
+     margin: 40px 0 20px;
 }
-
-#highlight {
-
-    float: left;
-    padding-top: 80px;
-    margin-bottom: 20px;
+ #highlight {
+     float: left;
+     padding-top: 80px;
+     margin-bottom: 20px;
 }
-
-
-.highlights-list {
-    margin-inline: 5%;
-    font-size: 22px;
-    padding-top: 28%;
-    color: #bbbbed;
-    text-shadow: 0 1px black;
+ .highlights-list {
+     margin-inline: 5%;
+     font-size: 22px;
+     padding-top: 28%;
+     color: #bbbbed;
+     text-shadow: 0 1px black;
 }
-
-.highlights-list h3 {
-
-    padding-top: 20px;
-    font-size: 25px;
-    color: #e5b191;
-
+ .highlights-list h3 {
+     padding-top: 20px;
+     font-size: 25px;
+     color: #e5b191;
 }
-
-.btn {
-    text-decoration: none;
-    border: 0.2px solid #c19a6b;
-    color: black;
-    background: #ffcb5d;
-    padding: 5px;
-    border-radius: 50%;
-    font-weight: bold;
+ .btn {
+     text-decoration: none;
+     border: 0.2px solid #c19a6b;
+     color: black;
+     background: #ffcb5d;
+     padding: 5px;
+     border-radius: 50%;
+     font-weight: bold;
 }
-
 /** This is where I will style my "About" page**/
-
-
-
-#hero-image {
-    background-image: url(..//images/sand.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
+ #hero-image {
+     background-image: url(..//images/sand.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
 }
-
-#about-main {
-    -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.13);
-    box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 13%);
-    border-top: solid;
-    border-bottom: solid;
-    margin: 0 auto;
+ #about-main {
+     -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.13);
+     box-shadow: 1px 1px 3px 2px rgb(0 0 0 / 13%);
+     border-top: solid;
+     border-bottom: solid;
+     margin: 0 auto;
 }
-
-#about-main h1 {
-    color: #551a8b;
-    text-shadow: 0 2px black;
-    padding-bottom: 20px;
+ #about-main h1 {
+     color: #551a8b;
+     text-shadow: 0 2px black;
+     padding-bottom: 20px;
 }
-
-#container {
-
-    align-items: center;
+ #container {
+     align-items: center;
 }
-
-.yoga-img {
-    margin-right: 20px;
-    float: right;
-    padding-left: 20px;
-    padding-top: 40px;
-    width: 500px;
-    height: auto;
-    color: #14629d;
+ .yoga-img {
+     margin-right: 20px;
+     float: right;
+     padding-left: 20px;
+     padding-top: 40px;
+     width: 500px;
+     height: auto;
+     color: #14629d;
 }
-
-
-.text-main {
-
-    padding-bottom: 20px;
-    font-size: 1.1em;
+ .text-main {
+     padding-bottom: 20px;
+     font-size: 1.1em;
 }
-
-.text-main>h3 {
-    color: #4c3a33;
+ .text-main>h3 {
+     color: #4c3a33;
 }
-
 /** This is where I will style my about schedule**/
-
-#schedule {
-    background-image: url(..//images/sea-water.webp);
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
+ #schedule {
+     background-image: url(..//images/sea-water.webp);
+     background-size: cover;
+     overflow: hidden;
+     width: 100%;
 }
-
-#schedule div {
-    color: #551a8b;
-    background-color: rgb(0 0 0 / 13%);
-    width: 33%;
-    height: 300px;
-    float: left;
-    padding-top: 10px;
-    text-align: center;
-    border: 2px solid white;
+ #schedule div {
+     color: #551a8b;
+     background-color: rgb(0 0 0 / 13%);
+     width: 33%;
+     height: 300px;
+     float: left;
+     padding-top: 10px;
+     text-align: center;
+     border: 2px solid white;
 }
-
-#schedule li {
-    color:white;
+ #schedule li {
+     color:white;
 }
-
-#schedule ul {
-    list-style: none;
+ #schedule ul {
+     list-style: none;
 }
-
-#schedule h2 {
-    color: black;
+ #schedule h2 {
+     color: black;
 }
-
 /** This is where I will style my Sign-up page **/
-
-#signup-header {
-    background-color: rgb(140, 120, 130, 1);
+ #signup-header {
+     background-color: rgb(140, 120, 130, 1);
 }
-
-.sign-nav {
-    background-color: rgb(140, 120, 130, 1);
+ .sign-nav {
+     background-color: rgb(140, 120, 130, 1);
 }
-
-.sign-up1 {
-    text-align: center;
-    background-color: rgb(19 126 199);
-    font-size: 10px;
+ .sign-up1 {
+     text-align: center;
+     background-color: rgb(19 126 199);
+     font-size: 10px;
 }
-
-#form-section {
-    clear: left;
-    background: url("..//images/waves.jpeg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+ #form-section {
+     clear: left;
+     background: url("..//images/waves.jpeg");
+     background-size: cover;
+     background-position: center;
+     height: 900px;
 }
-
-
-.form {
-    margin: 200px 20% 0 0;
-    color: #fff;
-    background-color: rgb(0 0 0 / 13%);
-    max-width: 400px;
-    position: absolute;
-    right: 10%;
-    padding: 80px;
+ .form {
+     margin: 200px 20% 0 0;
+     color: #fff;
+     background-color: rgb(0 0 0 / 13%);
+     max-width: 400px;
+     position: absolute;
+     right: 10%;
+     padding: 80px;
 }
-
-input {
-    width: 100%;
-    border: 2px solid black;
+ input {
+     width: 100%;
+     border: 2px solid black;
 }
-
-textarea {
-    resize: vertical;
-    max-width: 150px;
-    border: 2px solid black;
-}
-
-label {
-    color: #ffff00;
-}
-
-
-.text-input {
+ textarea {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border-radius: 2px;
 }
-
-.text-input:hover {
-    border-color: red;
-
+ label {
+     color: #ffff00;
 }
-
-.signupbtn {
-    width: 30%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    background-color: yellow;
-    color: #551a8b;
-    font-weight: bold;
-    display: block;
+ .text-input {
+     width: 100%;
+     height: 25px;
+     margin: 5px 0 20px 0;
+     border-radius: 2px;
 }
-
-
-
-::placeholder {
-    color: black;
-    opacity: 1;
-
+ .text-input:hover {
+     border-color: red;
 }
-
-.message {
-    background-color: rgb(204 204 255);
-    color: black;
-    border: 1px solid black;
-    border-width: 2px;
-    margin-top: 50px;
-    display: block;
+ .signupbtn {
+     width: 30%;
+     height: 25px;
+     margin: 5px 0 20px 0;
+     background-color: yellow;
+     color: #551a8b;
+     font-weight: bold;
+     display: block;
 }
+ ::placeholder {
+     color: black;
+     opacity: 1;
+}
+/** This is where I will stly my thank you page**/
 
-
-
+#sunset {
+    background-image:url(/assets/images/thanksyou.jpeg);
+    height: 100vh;
+}
+ .message {
+     background-color: rgb(204 204 255);
+     color: black;
+     border: 1px solid black;
+     border-width: 2px;
+     margin-top: 50px;
+     display: block;
+}
 /** This is where I will style my footer**/
-
-footer {
-
-    text-align: left;
-    padding: 0px 4%;
-    margin: 0;
-    border-top: thin solid #ccccff;
-
+ footer {
+     text-align: left;
+     padding: 0px 4%;
+     margin: 0;
+     border-top: thin solid #ccccff;
 }
-
-#footer-home {
-    background-color: #c19a6b;
+ #footer-home {
+     background-color: #c19a6b;
 }
-
-.social-media {
-    float: right;
-    letter-spacing: 3px;
-    margin-left: 20px;
-    font-weight: 200;
-    width: 33%;
-    margin-block-start: 4em;
-    margin-block-end: 1em;
-
+ .social-media {
+     float: right;
+     letter-spacing: 3px;
+     margin-left: 20px;
+     font-weight: 200;
+     width: 33%;
+     margin-block-start: 4em;
+     margin-block-end: 1em;
 }
-
-#contact {
-
-    text-align: left;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-bottom: 0;
+ #contact {
+     text-align: left;
+     display: block;
+     margin-block-start: 1em;
+     margin-block-end: 1em;
+     margin-bottom: 0;
 }
-
-.contact-left {
-    float: inline-start;
+ .contact-left {
+     float: inline-start;
 }
-
 /** media Querys **/
-
 /** for larger screens **/
-
-@media screen and (max-width: 1060px) {
-    header nav main footer {
-        width: 20%;
-        height: 1060px;
-        margin: 0 auto;
+ @media screen and (max-width: 1060px) {
+     header nav main footer {
+         width: 20%;
+         height: 1060px;
+         margin: 0 auto;
     }
-
-    #header,
-    #signup-header {
-
-        font-size: 50%;
+     #header, #signup-header {
+         font-size: 50%;
     }
-
-    #main {
-        width: 70%;
-        display: flex;
+     #main {
+         width: 70%;
+         display: flex;
     }
-
-    .main-content {
-        height: 200px;
-        padding: 0;
+     .main-content {
+         height: 200px;
+         padding: 0;
     }
-
-    .background-image {
-        height: 100vh;
+     .background-image {
+         height: 100vh;
     }
-
-    .intro {
-        padding-top: 0;
-        margin: 0;
-        line-height: normal;
+     .intro {
+         padding-top: 0;
+         margin: 0;
+         line-height: normal;
     }
-
-
-    .highlights-list,
-    li {
-        font-size: 100%;
-        padding-top: 20%;
-        text-align: left;
-        text-shadow: 0 2px black;
+     .highlights-list, li {
+         font-size: 100%;
+         padding-top: 20%;
+         text-align: left;
+         text-shadow: 0 2px black;
     }
-
-    .highlights-list h3 {
-        padding-top: 60px;
-        font-size: 35px;
-
+     .highlights-list h3 {
+         padding-top: 60px;
+         font-size: 35px;
     }
-
-    .highlights-list {
-        margin-top: 30%;
+     .highlights-list {
+         margin-top: 30%;
     }
-
-    ul {
-        text-align: center;
-        margin-top: 20px;
+     ul {
+         text-align: center;
+         margin-top: 20px;
     }
-
-
-    p {
-        font-size: 1em;
-        color: bisque;
-        padding-top: 10%; }
-
-    #container>p {
-            color: black;
-        }
-
-    li {
-        font-size: 2em;
-        padding-top: 0;
-        text-align: left;
-        color: white;
+     p {
+         font-size: 1em;
+         color: bisque;
+         padding-top: 10%;
     }
-
-
-
-    .btn {
-        float: right
+     #container>p {
+         color: black;
     }
-
-    .about-header,
-    .sign-nav {
-        min-height: 40px;
-        font-size: 60%;
+     li {
+         font-size: 2em;
+         padding-top: 0;
+         text-align: left;
+         color: white;
     }
-
-    #container {
-        font-size: 100%;
+     .btn {
+         float: right 
     }
-
-
-    #hero-image,
-    .background-image {
-        background-size: cover;
+     .about-header, .sign-nav {
+         min-height: 40px;
+         font-size: 60%;
     }
-
-    #container img {
-        width: 50%;
-        float: right;
-        margin: 0 auto;
+     #container {
+         font-size: 100%;
     }
-
-    #schedule,
-    #form-section,
-    #main {
-        min-height: 40px;
-        font-size: 65%;
+     #hero-image, .background-image {
+         background-size: cover;
     }
-
-    .form {
-
-        padding: 0;
-        width: 60%;
-        height: auto;
-        right: 0;
-        font-size: 150%;
-
+     #container img {
+         width: 50%;
+         float: right;
+         margin: 0 auto;
     }
-
-    .signupbtn {
-        width: 30%;
-        height: 55px;
-        margin: 5px 0 20px 0;
+     #schedule, #form-section, #main {
+         min-height: 40px;
+         font-size: 65%;
     }
-
-    #schedule div {
-        padding: 0;
-        width: 32%;
-        height: auto;
-        color: black;
-        font-size: 130%;
-        text-shadow: 0px 1px #9f711b;
+     .form {
+         padding: 0;
+         width: 60%;
+         height: auto;
+         right: 0;
+         font-size: 150%;
     }
-
-    #schedule h2 {
-        color: #c39c73;
-    font-size: 2.5em;
+     .signupbtn {
+         width: 30%;
+         height: 55px;
+         margin: 5px 0 20px 0;
     }
-
-    #about-main h1 {
-        padding-top: 10px;
-        text-align: left;
-        margin-inline-start: 2px;
+     #schedule div {
+         padding: 0;
+         width: 32%;
+         height: auto;
+         color: black;
+         font-size: 130%;
+         text-shadow: 0px 1px #9f711b;
     }
-
-    #container p {
-        font-size: 100%;
-        display: inline;
+     #schedule h2 {
+         color: #c39c73;
+         font-size: 2.5em;
     }
-
-    
-
+     #about-main h1 {
+         padding-top: 10px;
+         text-align: left;
+         margin-inline-start: 2px;
+    }
+     #container p {
+         font-size: 100%;
+         display: inline;
+    }
     /** media query for medium and smaller devices **/
-
-    @media screen and (max-width:765px) {
-
-
-        #main {
-            clear: left;
-            float: left;
-            margin-left: 10px;
-            margin-bottom: 20px;
+     @media screen and (max-width:765px) {
+         #main {
+             clear: left;
+             float: left;
+             margin-left: 10px;
+             margin-bottom: 20px;
         }
-
-        .main-content {
-            height: 200px;
-            padding: 0;
+         .main-content {
+             height: 200px;
+             padding: 0;
         }
-
-        .background-image {
-            height: 100vh;
+         .background-image {
+             height: 100vh;
         }
-
-        .intro {
-            padding-top: 0;
-            margin: 0;
-            line-height: normal;
-        }
-
-        p {
-            font-size: 45%;
-            color: bisque;
-            padding: 0;
-        }
-
-        #container>p {
-            color: black;
-        }
-
-        #highlight {
-            padding-top: 60px;
-        }
-
-        .highlights-list h3 {
-            padding-top: 20px;
-            font-size: 25px;
-        }
-
-        .highlights-list {
-
-            font-size: 2em;
+         .intro {
              padding-top: 0;
-            text-align: left;
-            text-shadow: none;
+             margin: 0;
+             line-height: normal;
         }
-
-        li {
-            font-size: 35%;
-            text-shadow: none;
+         p {
+             font-size: 45%;
+             color: bisque;
+             padding: 0;
         }
-
-        .btn {
-            right: auto;
-            border-radius: 0;
-            float: right;
+         #container>p {
+             color: black;
         }
-
-
-        #schedule li {
-            color: black;
-            font-size: 70%;
+         #highlight {
+             padding-top: 60px;
         }
-
-        .message>p {
-            background-color: wheat;
-            color: black;
-            font-size: 150%;
+         .highlights-list h3 {
+             padding-top: 20px;
+             font-size: 25px;
         }
-
-        .thanks {
-            background-color: #551a8b;
+         .highlights-list {
+             font-size: 2em;
+             padding-top: 0;
+             text-align: left;
+             text-shadow: none;
+        }
+         li {
+             font-size: 35%;
+             text-shadow: none;
+        }
+         .btn {
+             right: auto;
+             border-radius: 0;
+             float: right;
+        }
+         #schedule li {
+             color: black;
+             font-size: 70%;
+        }
+         .message>p {
+             background-color: wheat;
+             color: black;
+             font-size: 150%;
+        }
+         .thanks {
+             background-color: #551a8b;
         }
     }
-     
-
-          @media screen and (max-device-width:765px) {
-
-            #main {
-                clear: left;
-                float: left;
-                margin-left: 10px;
-                margin-bottom: 20px;
-            }
-    
-            .main-content {
-                height: 200px;
-                padding: 0;
-            }
-    
-            .background-image {
-                height: 100vh;
-            }
-    
-            .intro {
-                padding-top: 0;
-                margin: 0;
-                line-height: normal;
-            }
-    
-            p {
-                font-size: 45%;
-                color: bisque;
-                padding: 0;
-            }
-    
-            #container>p {
-                color: black;
-            }
-
-            #schedule h2 {
-                color: #c39c73;
-                font-size: 100%;}
-
-            #highlight {
-                padding-top: 60px;
-            }
-    
-            .highlights-list h3 {
-                padding-top: 40px;
-                font-size: 25px;
-            }
-    
-            .highlights-list {
-    
-                font-size: 2em;
-                 padding-top: 0;
-                text-align: left;
-                text-shadow: none;
-            }
-    
-            li {
-                font-size: 38%;
-                text-shadow: none;
-            }
-
-    
-            .btn {
-                right: auto;
-                border-radius: 0;
-                float: left;
-            }
-
-            .form {
-                right:0;
-            }
-    
-            .message>p {
-                background-color: wheat;
-                color: black;
-                font-size: 150%;
-            }
-    
-            .thanks {
-                background-color: #551a8b;
-            }
-
-            footer {
-                font-size: 50%;
-            }
-
-            .social-media a {
-                font-size:10pt;
-            }
-
-          }
+     @media screen and (max-device-width:765px) {
+         #main {
+             clear: left;
+             float: left;
+             margin-left: 10px;
+             margin-bottom: 20px;
         }
-          
-    
+         .main-content {
+             height: 200px;
+             padding: 0;
+        }
+         .background-image {
+             height: 100vh;
+        }
+         .intro {
+             padding-top: 0;
+             margin: 0;
+             line-height: normal;
+        }
+         p {
+             font-size: 45%;
+             color: bisque;
+             padding: 0;
+        }
+         #container>p {
+             color: black;
+        }
+         #schedule h2 {
+             color: #c39c73;
+             font-size: 100%;
+        }
+         #highlight {
+             padding-top: 60px;
+        }
+         .highlights-list h3 {
+             padding-top: 40px;
+             font-size: 25px;
+        }
+         .highlights-list {
+             font-size: 2em;
+             padding-top: 0;
+             text-align: left;
+             text-shadow: none;
+        }
+         li {
+             font-size: 38%;
+             text-shadow: none;
+        }
+         .btn {
+             right: auto;
+             border-radius: 0;
+             float: left;
+        }
+         .form {
+             right:0;
+        }
+         .message>p {
+             background-color: wheat;
+             color: black;
+             font-size: 150%;
+        }
+         .thanks {
+             background-color: #551a8b;
+        }
+         footer {
+             font-size: 50%;
+        }
+         .social-media a {
+             font-size:10pt;
+        }
+    }
+}
