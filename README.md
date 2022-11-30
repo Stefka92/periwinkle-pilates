@@ -1,4 +1,5 @@
 # Periwinkle Pilates
+[View Website Here](https://stefka92.github.io/periwinkle-pilates/)
 
 Periwinkle Pilates is a website created to promote a three day wellness retreat situated on the beach in Spanish Point, Co.Clare. The idea for the website arose from a local retreat in this area. The website will  outline the benefits of Pilates and taking time to switch off from everyday life in general and what better way to do so other than a Mini seascape.Looking after our health is vital in this day and age and practicing meditation and mindfulness is very important for our overall mental health.
 > It has also been proven that Spending time by the sea has been shown to help us feel happier, healthier, calmer and more creative.
@@ -33,7 +34,7 @@ The Users Goals of the website are;
 
 I first had to think about who my target audience would be and what would keep it simple and straightforward for them. As mindfulness is about decluttering the mind I decided to keep the website minimal,  clutter free and straight to the point.
 
-* *Periwinkle Pilates target users are:
+Periwinkle Pilates target users are:
 - Aged 18 onwards
 - Both Male and females
 - People interested in health and wellness
@@ -41,7 +42,7 @@ I first had to think about who my target audience would be and what would keep i
 - People looking to slow down from everyday life and learn how to switch off both the body and mind.
 - Anyone feeling tired or run down and in need of a detox.
 
-* *What these users would be looking for:
+What these users would be looking for:
 - Easy to navigate website with clear straightforward information.
 - Photos that reflect calmness and provide inspiration to Sign up.
 - How much the Retreat costs.
@@ -63,7 +64,7 @@ In order to meet the above criteria, the following features will be included in 
 ## Structure
 The website is made up of four pages, three of which can be accessed from the navigation menu (Home, About & Sign-up). The fourth page is a brief thank you page which you are redirected to once you sign up for the retreat.
 
-* *All Pages on the website have:
+All Pages on the website have:
 
 - A responsive navigation bar at the top which allows the user to navigate through the site. 
 - A footer which contains social media links to instagram and facebook along with their icons. The footer also contains a contact us section with all relative information to get in touch.
@@ -76,7 +77,9 @@ The website is made up of four pages, three of which can be accessed from the na
       - A Section with a table containing the 3 day schedule is added underneed the description section.
       - A sand background image was added to this page to fit in with the theme of the website.
 - Sign Up Page.
-      - A Form consisting of 5 input fields for the users First name, Last name, email address, date of birth, and contact number an additional box was added giving the user the option to submit any special requests they may have.The user must fill in the First 5 input fields in order to submit otherwise a pop up message appears stating  **Please fill out this form**  The user submits the form using the submit button which is titled **Sign up now***. 
+      - A Form consisting of 5 input fields for the users First name, Last name, email address, date of birth, and contact number an additional box was added giving            the user the option to submit any special requests they may have.
+         The user must fill in the First 5 input fields in order to submit otherwise a pop up message appears stating  **Please fill out this form**.  
+            The user submits the form using the submit button which is titled **Sign up now**. 
 - Thank You Page.
    - A brief thanks message to the user letting them know their form has successfully been submitted.
 
@@ -118,14 +121,15 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 7. Click Save. Your live Github Pages site is now deployed at the URL shown (This may take a few minutes to show up).
  
 ## Testing
-* *To test my website I went through the following tests:
+To test my website I went through the following tests:
 I carried out each test using different browsers which included google chrome, firefox and microsoft.
-**Links
+
+**Links**
 1. Test each link on the index page which included the Header link, the navigation links, the find out more button and both social media links which opened in separate tabs.
 2. Test each link on the About page which included the Header link, the navigation links, and both social media links which opened in separate tabs.
 3. Test each link on the Sign-up page which included the Header link, the navigation links, the sign up now button and both social media links which opened in separate tabs.
 
-**Form
+**Form**
 1. Test the form leaving out the First name.I  tried to fill out the form leaving out the first name, when I tried to click the sign up now button. The error message appeared stating that I had to fill in the First Name
 2. Test the form leaving out the Last name.I  tried to fill out the form leaving out the Last name, when I tried to click the sign up now button. The error message appeared stating that I had to fill in the Last Name.
 3. Test the form leaving out the Email.I  tried to fill out the form leaving out the Email address, when I tried to click the sign up now button. The error message appeared stating that I had to fill in the Email address.
