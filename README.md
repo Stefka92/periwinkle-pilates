@@ -1,6 +1,8 @@
 # Periwinkle Pilates
 [View Website Here](https://stefka92.github.io/periwinkle-pilates/)
 
+![](assets/images/responsivemain.jpg)
+
 Periwinkle Pilates is a website created to promote a three day wellness retreat situated on the beach in Spanish Point, Co.Clare. The idea for the website arose from a local retreat in this area. The website will  outline the benefits of Pilates and taking time to switch off from everyday life in general and what better way to do so other than a Mini seascape.Looking after our health is vital in this day and age and practicing meditation and mindfulness is very important for our overall mental health.
 > It has also been proven that Spending time by the sea has been shown to help us feel happier, healthier, calmer and more creative.
 
