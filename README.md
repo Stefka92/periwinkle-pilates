@@ -118,15 +118,27 @@ CSS - Used to style the web content.
 
 ## Frameworks, Libraries & Programs Used
 https://lucid.app/ - Used to create wireframes.
+
 Git - For version control.
+
 Github - To save and store the project files for the website.
-Gitpod- Used to deploy the website.
+
+Gitpod - Used to deploy the website.
+
 Google Fonts - To import the fonts used on the website.
+
 Font Awesome - For the icons used on the website.
+
 Google Dev Tools - Used to test styles and fix features within the website.
+
 Pexels.com- Used to access and download free images for the website.
-Coloors- Used to create a colour palette for the design.
+
+Coloors - Used to create a colour palette for the design.
+
 Am I Responsive? To view the website image on a range of different devices.
+
+
+freeformatter.com - Used to format my HTML and CSS.
  
 ### Deployment
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
