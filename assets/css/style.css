@@ -272,6 +272,7 @@
      border-width: 2px;
      margin-top: 50px;
      display: block;
+     text-align: center;
 }
 /** This is where I will style my footer**/
  footer {
@@ -354,6 +355,13 @@
      #container>p {
          color: black;
     }
+
+    .message>p {
+        
+        color: black;
+        font-size: 150%;
+        padding: 0;
+   }
      li {
          font-size: 2em;
          padding-top: 0;
@@ -470,13 +478,11 @@
              font-size: 70%;
         }
          .message>p {
-             background-color: wheat;
+        
              color: black;
-             font-size: 150%;
+             font-size: 90%;
         }
-         .thanks {
-             background-color: #551a8b;
-        }
+      
     }
      @media screen and (max-device-width:765px) {
          #main {
@@ -534,14 +540,12 @@
          .form {
              right:0;
         }
-         .message>p {
-             background-color: wheat;
-             color: black;
-             font-size: 150%;
-        }
-         .thanks {
-             background-color: #551a8b;
-        }
+        .message>p {
+        
+            color: black;
+            font-size: 90%;
+       }
+        
          footer {
              font-size: 50%;
         }
