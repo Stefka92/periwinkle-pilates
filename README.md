@@ -122,25 +122,45 @@ All Main pages have
 - A responsive navigation menu located at the top of the page.
 - A Footer which contains contact information made up of h3 and h4 elements and social media links to both facebook and instagram including their icons as they are universally recognisable.
 
+**Header & Navigation**
+![](assets/images/nav.jpg)
+
+**Footer**
+![](assets/images/part3.jpg)
+
 The Home page contains 
   - A background image of the beach.
  - A paragraph with a brief description of what the website is offering made up of p and br elements.
 - A button that links you to the about page when clicked.
 - An unordered highlights list.
 
+**Home page paragraph, button & list**
+![](assets/images/part2.gif)
+
 The about page contains
 - A detailed section about the retreat made up of p, H1, H3 & BR elements.
 - An Image of a lady on the beach in a pilates pose.
 - A table containing the 3 day schedule made up of H2 Headings and unordered list items.
 
+**About paragraph & image**
+![](assets/images/about1.jpg)
+**About schedule**
+![](assets/images/about2.jpg)
+
 The Sign up page contains
 - A background image of a sunset at the beach.
 - A form which consists of text input, email, date and number which are all required so you cannot submit the form if these fields are not complete.
+
+**Sign-up form**
+![](assets/images/form.jpg)
 
 Thank you Page
  - A background image of the Sea.
 -  A brief Thank you message to let you know you have Signed up.
 - A button that takes you back to the home page.
+
+**Thank you message & button**
+![](assets/images/thanksf.jpg)
 
 The color palate changes when viewed on mobile and tablet devices as the font was not clear on smaller devices. 
 
