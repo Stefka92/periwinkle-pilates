@@ -120,9 +120,10 @@ All Main pages have
 - A title which links you back to the home page when clicked. 
 - A H1 heading for the title and a h2 heading for the tagline underneath.
 - A responsive navigation menu located at the top of the page.
-- A Footer which contains contact information made up of h3 and h4 elements and external links to both facebook and instagram when clicked.
+- A Footer which contains contact information made up of h3 and h4 elements and social media links to both facebook and instagram including their icons as they are universally recognisable.
 
 The Home page contains 
+  - A background image of the beach.
  - A paragraph with a brief description of what the website is offering made up of p and br elements.
 - A button that links you to the about page when clicked.
 - An unordered highlights list.
@@ -133,7 +134,13 @@ The about page contains
 - A table containing the 3 day schedule made up of H2 Headings and unordered list items.
 
 The Sign up page contains
+- A background image of a sunset at the beach.
 - A form which consists of text input, email, date and number which are all required so you cannot submit the form if these fields are not complete.
+
+Thank you Page
+ - A background image of the Sea.
+-  A brief Thank you message to let you know you have Signed up.
+- A button that takes you back to the home page.
 
 The color palate changes when viewed on mobile and tablet devices as the font was not clear on smaller devices. 
 
@@ -145,28 +152,30 @@ HTML - Used as the basic building block for the project and to structure the con
 CSS - Used to style the web content.
 
 ## Frameworks, Libraries & Programs Used
+
 https://lucid.app/ - Used to create wireframes.
 
-Git - For version control.
+[Git](https://git-scm.com/) - For version control.
 
-Github - To save and store the project files for the website.
+[Github](https://github.com/) - To save and store the project files for the website.
 
-Gitpod - Used to deploy the website.
+[Gitpod](https://gitpod.io/workspaces) - Used to deploy the website.
 
-Google Fonts - To import the fonts used on the website.
+[Google Fonts](https://fonts.google.com/specimen/Open+Sans) - To import the fonts used on the website.
 
-Font Awesome - For the icons used on the website.
+[Font Awesome](https://fontawesome.com/) - For the icons used on the website.
 
-Google Dev Tools - Used to test styles and fix features within the website.
+[Google Dev Tools](https://www.google.com/chrome/dev/) - Used to test styles and fix features within the website.
 
-Pexels.com- Used to access and download free images for the website.
+[Pexels](https://www.pexels.com/) - Used to access and download free images for the website.
 
-Coloors - Used to create a colour palette for the design.
+[Coloors](https://coolors.co/) - Used to create a colour palette for the design.
 
-Am I Responsive? To view the website image on a range of different devices.
+[Am I Responsive](https://ui.dev/amiresponsive) -To view the website image on a range of different devices.
 
+[freeformatter](https://www.freeformatter.com/html-formatter.html#before-output) - Used to format my HTML.
 
-freeformatter.com - Used to format my HTML and CSS.
+[CSS formatter](https://formatter.org/css-formatter) -Used to format my CSS
  
 ### Deployment
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
@@ -178,15 +187,15 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 7. Click Save. Your live Github Pages site is now deployed at the URL shown (This may take a few minutes to show up).
 
 **How to Fork**
-If you would like to make changes to the website without affecting the original repository you can do so by making a copy.
+If you would like to make changes to this repositiry without affecting the original you can do so by making a copy.
 1. Click the GitHub repository you wish to fork.
 2. Click on the fork button located in the top right hand corner.
 
  **How to clone**
-If you would like to download your repository and store it locally you can do so by cloning it
-1.Click the GitHub repository you wish to clone.
+If you would like to download this repository and store it locally you can do so by cloning it
+1.Click the GitHub repository Periwinkle Pilates.
 2.Click on the drop down arrow on the Code button located on the top right.
-3.Select and the link that appears.
+3.Select and copy the link that appears.
 4.Open Gitpod & select the location where you would like the clone to be saved.
 5.In the terminal type 'git clone' and paste the link.
 6.Press enter to create your local clone.
@@ -233,9 +242,42 @@ I used W3C to test both my HTML and CSS
 ![](assets/images/passed.jpg)
 
 ## color.a11y.com
-I used color.a11y to test my colour contrast
+I used color.a11y to test my colour contrast. There was one contract issue and a recommendation to change the colors or else increase the font size so I went with increasing the font size 
+
+![](assets/images/colortest.jpg)
  
+ ## Credits
  
+**Code Used**
+
+- [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/c428cfb8fd5e4852bbba1f94e914b3b4/) I used the love running project as a guide line for creating my form section and schedule table.
+
+- [Create a Responsive Webpage Layout for Phones and Tablets](https://www.youtube.com/watch?v=XTkDLeMy-7Q) I Used this youtube video as a guideline for creating my media queries.
+
+- [Create a button](https://stackhowto.com/how-to-make-a-button-link-to-another-page-in-html/) I used stack how to as a guideline for creating my button.
+
+- [Create a form](https://www.youtube.com/watch?v=E5MEzC0prd4) I used this youtube video as a guideline for creating my form.
+ 
+**Content**
+
+The majority of the content was written by Stephanie McMahon. 
+
+I used [total fitness](https://www.totalfitness.co.uk/blog/fitness/what-is-pilates/) for the paragraph explaining what pilates is.
+
+I followed Kera Cudmores template on how to create a readme and took inspiration from daisygunn.
+
+**Media**
+
+ - [all images throughout the website were downloaded from pexels](https://www.pexels.com/)
+ - [the social media icons were taken from font awesome](https://fontawesome.com/)
+ 
+## Acknowledgments
+
+I would like to acknowledge the following people who helped me in completing this project:
+- My Course Mentor Harry Dhillon for his support and guidance.
+- My friends Sinead Griffin & Geraldine Rynne for testing my site, providing feedback and ensuring all links were working.
+- Aine Hurley for helping come up with a name for my website.
+
  
  
  
